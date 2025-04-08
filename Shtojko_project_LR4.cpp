@@ -20,6 +20,18 @@ double convertToGigabytes(double bytes) {
 
 
 int main() {
+    bool run = true;
+    
+    while (run) {
+        cout << "\nМеню:\n";
+        cout << "1 - Ввести объем данных\n";
+        cout << "2 - Перевести в мегабайты\n";
+        cout << "3 - Перевести в гигабайты\n";
+        cout << "0 - Выход\n";
+        cout << "Выберите действие: ";
+        
+        int choice;
+        cin >> choice;
    
         switch (choice) {
             case 1:
