@@ -11,11 +11,11 @@ double getInputInBytes() {
 }
 
 double convertToMegabytes(double bytes) {
-
+    return bytes / (1024 * 1024);
 }
 
 double convertToGigabytes(double bytes) {
-   
+    return bytes / (1024 * 1024 * 1024);
 }
 
 
